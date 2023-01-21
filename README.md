@@ -2,6 +2,8 @@
 
 This is bot which receives a geolocation from the user and returns weather data in this location
 
+[Link to the bot](https://t.me/synoptic_tg_bot)
+
 -- --
 
 ## Bot structure
