@@ -17,25 +17,38 @@ This is bot which receives a geolocation from the user and returns weather data 
 
 -- --
 
-## Bot description
+## Bot creation motivation
 
-This bot is created for:
+I created this bot for:
+- create my own project on python
+- create a telegram bot
 - try third-party python libraries
+- write and use unit tests
 
-Detailed descriptions of modules and methods are given in the documentation
+-- --
 
 ## Preview
 
 Screenshots of the bot's reaction to various actions:
+- Initial open
+- Command **/start**
+- Bot answer
+- Answer to the other content
 
-|   |   |   |
-| - | - | - |
-| **Initial open**![Preview](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/preview.png) | **Command /start** ![Start](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/start.png) | 
-**Bot sends location, weather and coordinates** ![Location](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/location.png) | **When you try to send other content** ![Text](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/text.png)
+
+|![Preview](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/preview.png) |![Start](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/start.png) |
+|--|--|
+![Location](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/location.png) |![Text](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/text.png)
+
+Detailed descriptions of modules and methods are given in the documentation
+
+-- --
 
 ## Start action
 When the bot is launched, unit tests are run first, after which the bot itself is launched. In the terminal it is displayed like this:
 ![Bot_start](https://raw.githubusercontent.com/fomaaq/synoptic_tg_bot/main/imgs/bot_start.jpg)
+
+-- --
 
 ## How to run
 Python version 3.10 was used at launch
